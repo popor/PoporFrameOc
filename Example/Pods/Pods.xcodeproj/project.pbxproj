@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076426BE312FE8FC8B302B88A7E7C373 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8879A173266616D609E286105D78B01C /* Cocoa.framework */; };
-		0783F769FBEAE0A21490AE548DA30B7F /* PoporFrameOc-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 438E238D0B05201658CC61E03084AAB1 /* PoporFrameOc-iOS-dummy.m */; };
-		0CC6626F5FBB487B90A3F68C55FB72D6 /* PoporFrameOc-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1A0C28EAC567241DF08F9F1A4764B1 /* PoporFrameOc-macOS-dummy.m */; };
-		18CDF9607F02BFCA30FE50D48E01359E /* PoporFrameOc-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D76C933244ED33A86209E6D6588161 /* PoporFrameOc-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2355120D18D39C13F763C85346698DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B812DE291317779F6AD347A1C47C95 /* Foundation.framework */; };
-		30C1A4172AC8A17D2858C156EA3B4EF6 /* View+pFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE533C6EC7D8BF230350670316043C4 /* View+pFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3881AA1D6172A00873E47C7B68E62AB2 /* Pods-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AEB1BB69AB390B6CB2698AFB0B8326 /* Pods-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC0317CC6F65DA9A5E53FA6EC15DF48 /* PoporFrameOc.h in Headers */ = {isa = PBXBuildFile; fileRef = D163B664641E5BDB7019FD49C3170773 /* PoporFrameOc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B4388E7F8CCFDE31A979282D7C1DADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8879A173266616D609E286105D78B01C /* Cocoa.framework */; };
-		528C7F85C68136CA9A6268E899D67091 /* PoporFrameOc.h in Headers */ = {isa = PBXBuildFile; fileRef = D163B664641E5BDB7019FD49C3170773 /* PoporFrameOc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62F8AE696892189B370E5FDEA8941390 /* Pods-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC55D082C70E2B841DC517E347F0B61A /* Pods-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68B925E8E48B67A729ED6382520E19EB /* Pods-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1835FBEF3279B5C1DE88619450FDCCC /* Pods-iOS-dummy.m */; };
-		7A25D01DF8809E17BF460129DE6DAF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B812DE291317779F6AD347A1C47C95 /* Foundation.framework */; };
-		872D15B14BF653CE2AD478ED19F463F5 /* View+pFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE533C6EC7D8BF230350670316043C4 /* View+pFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		96BBF337C5330F41B05C3BAA90798C17 /* Pods-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A485B3D3ABD770760DEB16A19131D43B /* Pods-macOS-dummy.m */; };
-		9ABE9CB0EC791003DDD199C9AC7CC546 /* PoporFrameOc-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FBE273B9A143ABAFDAFCACAF6A1292 /* PoporFrameOc-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF0E5AD7FFB74EB5D6A1DE7D43234D24 /* View+pFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7437FA176B44201B8FE99C6217D595A4 /* View+pFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD62B57547C85DE1131C3261C25DEFCF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D72E69AAAFE6E05DDB5F92913342F7F /* AppKit.framework */; };
-		ED9DA821998F414F78830B7A748BF6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08420B74683924C6E957385033362341 /* UIKit.framework */; };
-		EDCBE2AE7A83D3438BE49F0FF978C9BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5CF9DDF6A9B470F41B3626BCDE4002 /* Foundation.framework */; };
-		F778881D26D6D88221998CC1E8F1EA71 /* View+pFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7437FA176B44201B8FE99C6217D595A4 /* View+pFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076426BE312FE8FC8B302B88A7E7C373 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044804B624754E8DC8E241BB410D84E5 /* Cocoa.framework */; };
+		0783F769FBEAE0A21490AE548DA30B7F /* PoporFrameOc-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3E7A7D567AC85DB0F625DD0FABB46B /* PoporFrameOc-iOS-dummy.m */; };
+		0CC6626F5FBB487B90A3F68C55FB72D6 /* PoporFrameOc-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B6DCCE08E640B22AF9B932C8CC4F19 /* PoporFrameOc-macOS-dummy.m */; };
+		18CDF9607F02BFCA30FE50D48E01359E /* PoporFrameOc-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D0E5BD1783E812274A877D04528341 /* PoporFrameOc-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2036C67D17D16D5F7FE7B62DB67F451C /* PoporFrameOc-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE81FC59BEF5BC05641B70770D71E0A /* PoporFrameOc-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2355120D18D39C13F763C85346698DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5809B74DC04404B5146D106E139E28EF /* Foundation.framework */; };
+		30C1A4172AC8A17D2858C156EA3B4EF6 /* View+pFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A37D8D3558F72B4697DCD7A14BD28 /* View+pFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3881AA1D6172A00873E47C7B68E62AB2 /* Pods-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF333C1CAC18459EA156831DA58A307 /* Pods-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC0317CC6F65DA9A5E53FA6EC15DF48 /* PoporFrameOc.h in Headers */ = {isa = PBXBuildFile; fileRef = B22B31B0C7904561BDD9D075689D08D7 /* PoporFrameOc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B147AD6418DF274E85ADB0BF470DCC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363E5A35279FB9EF10FD540BC9BFDD24 /* UIKit.framework */; };
+		4B4388E7F8CCFDE31A979282D7C1DADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044804B624754E8DC8E241BB410D84E5 /* Cocoa.framework */; };
+		528C7F85C68136CA9A6268E899D67091 /* PoporFrameOc.h in Headers */ = {isa = PBXBuildFile; fileRef = B22B31B0C7904561BDD9D075689D08D7 /* PoporFrameOc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E683664C0BCA9BDADAE315C865562F /* View+pFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A37D8D3558F72B4697DCD7A14BD28 /* View+pFrame.m */; };
+		62F8AE696892189B370E5FDEA8941390 /* Pods-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2D61F27E953CBF7B371D710B814B69 /* Pods-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657E0F291D09A80E62C75C872D8F3CC2 /* Pods-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0647C398AF52CE6E6235B0B1C1E24380 /* Pods-tvOS-dummy.m */; };
+		68B925E8E48B67A729ED6382520E19EB /* Pods-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F7400CFAC962D70F6F8280D5E1C9DE /* Pods-iOS-dummy.m */; };
+		6D31DDD26CB2CD144EAFBCE5E78AEF36 /* PoporFrameOc.h in Headers */ = {isa = PBXBuildFile; fileRef = B22B31B0C7904561BDD9D075689D08D7 /* PoporFrameOc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A25D01DF8809E17BF460129DE6DAF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5809B74DC04404B5146D106E139E28EF /* Foundation.framework */; };
+		7D567B5442D8DE9C22E8CA2E0EC4F45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CE18D2073A7E23FDA1A81E5B82A438 /* Foundation.framework */; };
+		872D15B14BF653CE2AD478ED19F463F5 /* View+pFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A37D8D3558F72B4697DCD7A14BD28 /* View+pFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		92B5961C0E91ACC281A303774902B591 /* Pods-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA0437CF83CC26329BF6F7228A3D2BD /* Pods-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96BBF337C5330F41B05C3BAA90798C17 /* Pods-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE3B8F20A9CFA71ABACEE82434792C /* Pods-macOS-dummy.m */; };
+		9ABE9CB0EC791003DDD199C9AC7CC546 /* PoporFrameOc-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A0460DE77B15957547F6BD8A132F3F /* PoporFrameOc-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B657BF8DE49B849D2F7E15304E5A549B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CE18D2073A7E23FDA1A81E5B82A438 /* Foundation.framework */; };
+		CF0E5AD7FFB74EB5D6A1DE7D43234D24 /* View+pFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B578FA00B44EC17E7AD0B1809B6335 /* View+pFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D323CF44E9C0290DCB90900B5A0C3646 /* PoporFrameOc-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EEFA3D2A7D10E9C3D76B938E61960 /* PoporFrameOc-tvOS-dummy.m */; };
+		DD62B57547C85DE1131C3261C25DEFCF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C276B622281DFAC0908A3C5645975D1 /* AppKit.framework */; };
+		ED9DA821998F414F78830B7A748BF6C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A9CEC66605B26949BED376435756CA /* UIKit.framework */; };
+		EDCBE2AE7A83D3438BE49F0FF978C9BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487ECEA1A989A4AF2916843C6F99360B /* Foundation.framework */; };
+		F778881D26D6D88221998CC1E8F1EA71 /* View+pFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B578FA00B44EC17E7AD0B1809B6335 /* View+pFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFE7260BCFC19CBF6534C8DFBF0E1DB /* View+pFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B578FA00B44EC17E7AD0B1809B6335 /* View+pFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,57 +55,84 @@
 			remoteGlobalIDString = B8AD71818BB53AE962F345D850CE07B1;
 			remoteInfo = "PoporFrameOc-macOS";
 		};
+		4D059ECEBE7D5F5E600789A1B013D269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29FD7DB782D80AFEAC2CBE4DDB1579E;
+			remoteInfo = "PoporFrameOc-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0626251ECB559E1B2C1705E6AC7E0EC8 /* Pods-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		08420B74683924C6E957385033362341 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		03A0F08561336FB758874D0B0628EFA7 /* PoporFrameOc-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PoporFrameOc-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		044804B624754E8DC8E241BB410D84E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0647C398AF52CE6E6235B0B1C1E24380 /* Pods-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tvOS-dummy.m"; sourceTree = "<group>"; };
+		0BFF35EB85399686B0AF0ADB82DEE028 /* PoporFrameOc-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "PoporFrameOc-tvOS-Info.plist"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS-Info.plist"; sourceTree = "<group>"; };
+		0CA0437CF83CC26329BF6F7228A3D2BD /* Pods-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		140C84F430325E68B6D149F4F10FE95F /* Pods-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		14B578FA00B44EC17E7AD0B1809B6335 /* View+pFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+pFrame.h"; path = "PoporFrameOc/Classes/View+pFrame.h"; sourceTree = "<group>"; };
 		175245A74469F10FE113A91569301816 /* Pods_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_macOS.framework; path = "Pods-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A42B6D8988F3BB94AC9792021F819D /* Pods-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		2ED0B0D56401A3DECE571B6F4CD2B523 /* Pods-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36E94E442FD878A2474A0ECB791D7EC9 /* PoporFrameOc-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFrameOc-iOS-prefix.pch"; sourceTree = "<group>"; };
-		37D76C933244ED33A86209E6D6588161 /* PoporFrameOc-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFrameOc-iOS-umbrella.h"; sourceTree = "<group>"; };
-		3B0E34EB0C62AB34FBE052053DAC32AC /* PoporFrameOc-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PoporFrameOc-macOS.release.xcconfig"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		3B2E8CF3BE73A2CBC7426DD0DE8C4E6A /* Pods-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		438E238D0B05201658CC61E03084AAB1 /* PoporFrameOc-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporFrameOc-iOS-dummy.m"; sourceTree = "<group>"; };
-		472F921B860A35143E30B2ED9E929291 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4C7041B6944CC48D8703F40691DBEA95 /* PoporFrameOc-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoporFrameOc-iOS-Info.plist"; sourceTree = "<group>"; };
-		4D72E69AAAFE6E05DDB5F92913342F7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		53FBE273B9A143ABAFDAFCACAF6A1292 /* PoporFrameOc-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PoporFrameOc-macOS-umbrella.h"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-umbrella.h"; sourceTree = "<group>"; };
-		54AEB1BB69AB390B6CB2698AFB0B8326 /* Pods-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-macOS-umbrella.h"; sourceTree = "<group>"; };
-		58B18CD3E7AEB9381B3557E7258CF9AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5D570B268979A927FDDB5FD86CA7CD67 /* PoporFrameOc-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PoporFrameOc-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5DFDA770F1727C94EB76793D701FA64E /* PoporFrameOc-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PoporFrameOc-macOS-prefix.pch"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-prefix.pch"; sourceTree = "<group>"; };
-		60A0AD280F8195A33ADD4E1D925942B7 /* Pods-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macOS-Info.plist"; sourceTree = "<group>"; };
-		63E0E63BE86A88CFAF993CDD6C8F0319 /* PoporFrameOc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PoporFrameOc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6F955239FE00A72326811544B5E917A7 /* PoporFrameOc-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "PoporFrameOc-macOS-Info.plist"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-Info.plist"; sourceTree = "<group>"; };
-		71A4D6CF1B2586E72D51FCBB90E56C27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		18D33478126CA93F00E6B42BAC55425D /* Pods-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Info.plist"; sourceTree = "<group>"; };
+		363E5A35279FB9EF10FD540BC9BFDD24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BACEF978A86AA71ACAB54586E643D69 /* Pods-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-macOS.modulemap"; sourceTree = "<group>"; };
+		3C276B622281DFAC0908A3C5645975D1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D2C831000A605CBB0574E53FA96FB7F /* Pods-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4257A36121CA3C7F31B0EBDBA25BC2F8 /* Pods-macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-macOS-frameworks.sh"; sourceTree = "<group>"; };
+		42BD1ED6F719D5709BCED36D75950256 /* Pods-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macOS-Info.plist"; sourceTree = "<group>"; };
+		43280A60E9CEA8953DD6F3EAACA91B72 /* Pods-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		46A72F55A9FFDD971838CCB0973B46BF /* Pods-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		487ECEA1A989A4AF2916843C6F99360B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B2D61F27E953CBF7B371D710B814B69 /* Pods-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-umbrella.h"; sourceTree = "<group>"; };
+		5809B74DC04404B5146D106E139E28EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58B432F4818D959E285434230A511001 /* Pods-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS.modulemap"; sourceTree = "<group>"; };
+		5C9A37D8D3558F72B4697DCD7A14BD28 /* View+pFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+pFrame.m"; path = "PoporFrameOc/Classes/View+pFrame.m"; sourceTree = "<group>"; };
+		652F8191C984A33A9EEB7A5140C74EDD /* PoporFrameOc-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFrameOc-iOS-prefix.pch"; sourceTree = "<group>"; };
+		6584722EE01B0F2AA36B3E8091E89915 /* Pods-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		72B5511860813EB0F813CD786193BCAC /* Pods-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		72DCF6DC6DC610167C51DC98814BCDA5 /* PoporFrameOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporFrameOc.framework; path = "PoporFrameOc-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7437FA176B44201B8FE99C6217D595A4 /* View+pFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+pFrame.h"; path = "PoporFrameOc/Classes/View+pFrame.h"; sourceTree = "<group>"; };
-		79B812DE291317779F6AD347A1C47C95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C2048BF4D3187737130AAB30E0EBCD3 /* Pods-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		7EC173F7EEC1951A38DD43C48826A879 /* Pods-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-frameworks.sh"; sourceTree = "<group>"; };
-		8879A173266616D609E286105D78B01C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		94BDA4DC5B9DF6012F0EB516375204FC /* PoporFrameOc-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PoporFrameOc-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		764CFB66346695C3633A640D702BB5B5 /* PoporFrameOc-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "PoporFrameOc-macOS.modulemap"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS.modulemap"; sourceTree = "<group>"; };
+		7757C094B8D24174BEFEF165A1A09F2E /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7978A60EBCD0591381D1A7A089C7AD88 /* Pods_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tvOS.framework; path = "Pods-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D680B2DBE716A5F98F5DF5766F5635 /* Pods-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		7F39152A436033F0C3AB2D07E677C2B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		855EAFF44A9B236DDC6C601B517FAF2D /* PoporFrameOc-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "PoporFrameOc-tvOS.modulemap"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS.modulemap"; sourceTree = "<group>"; };
+		87B6DCCE08E640B22AF9B932C8CC4F19 /* PoporFrameOc-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PoporFrameOc-macOS-dummy.m"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-dummy.m"; sourceTree = "<group>"; };
+		92BEB2D5132A86995F1037E7F6AE9BA5 /* Pods-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tvOS-Info.plist"; sourceTree = "<group>"; };
+		9480202E5564D5B92EDDD17A67587CA0 /* Pods-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		96CE3B8F20A9CFA71ABACEE82434792C /* Pods-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-macOS-dummy.m"; sourceTree = "<group>"; };
+		9741FE45CE64D561775DF8B2624FECCF /* PoporFrameOc-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PoporFrameOc-iOS-Info.plist"; sourceTree = "<group>"; };
+		98DC9BCDD5A1DE3792E358AD5EC3AB34 /* PoporFrameOc-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PoporFrameOc-tvOS.release.xcconfig"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		98F7400CFAC962D70F6F8280D5E1C9DE /* Pods-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0D8906C7AEC0771BF00F79C7504219E /* PoporFrameOc-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "PoporFrameOc-macOS.modulemap"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS.modulemap"; sourceTree = "<group>"; };
-		A1835FBEF3279B5C1DE88619450FDCCC /* Pods-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-dummy.m"; sourceTree = "<group>"; };
-		A485B3D3ABD770760DEB16A19131D43B /* Pods-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-macOS-dummy.m"; sourceTree = "<group>"; };
-		BBA225847CCDDA09A124AF92B95E2302 /* Pods-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Info.plist"; sourceTree = "<group>"; };
-		BBE10760E83A949836D0A0C71337CA30 /* PoporFrameOc-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "PoporFrameOc-iOS.modulemap"; sourceTree = "<group>"; };
-		BF1A0C28EAC567241DF08F9F1A4764B1 /* PoporFrameOc-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PoporFrameOc-macOS-dummy.m"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-dummy.m"; sourceTree = "<group>"; };
-		CF62B1D54441003748511AF143FC5273 /* Pods-macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-macOS-frameworks.sh"; sourceTree = "<group>"; };
-		D0BDA58391C445958E6878E830E97D8A /* Pods-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		D163B664641E5BDB7019FD49C3170773 /* PoporFrameOc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PoporFrameOc.h; path = PoporFrameOc/Classes/PoporFrameOc.h; sourceTree = "<group>"; };
+		9F7A207BC0E6509DB9A01F0ADF07D0FB /* PoporFrameOc-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PoporFrameOc-macOS-prefix.pch"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-prefix.pch"; sourceTree = "<group>"; };
+		A4D7DD941C3F4E3E6D7D661428425537 /* PoporFrameOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporFrameOc.framework; path = "PoporFrameOc-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B53C791C8EB050B77FB5B585D21795 /* Pods-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B22B31B0C7904561BDD9D075689D08D7 /* PoporFrameOc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PoporFrameOc.h; path = PoporFrameOc/Classes/PoporFrameOc.h; sourceTree = "<group>"; };
+		B69EEFA3D2A7D10E9C3D76B938E61960 /* PoporFrameOc-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PoporFrameOc-tvOS-dummy.m"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS-dummy.m"; sourceTree = "<group>"; };
+		B706FD5BEC6140249FA5F6F2812C5CA3 /* Pods-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B8EFE909F297028C27D7C621D6FA6E5F /* PoporFrameOc-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PoporFrameOc-tvOS-prefix.pch"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		B9CC72B40722680306B8554671CEB3AA /* PoporFrameOc-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PoporFrameOc-macOS.debug.xcconfig"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE81FC59BEF5BC05641B70770D71E0A /* PoporFrameOc-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PoporFrameOc-tvOS-umbrella.h"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		BD3E7A7D567AC85DB0F625DD0FABB46B /* PoporFrameOc-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PoporFrameOc-iOS-dummy.m"; sourceTree = "<group>"; };
+		C177DFB3AF4FFDD0A36705B6877D076C /* Pods-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tvOS.modulemap"; sourceTree = "<group>"; };
+		C48FCC6F3F124C0A935207F9421C8BEE /* PoporFrameOc-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "PoporFrameOc-iOS.modulemap"; sourceTree = "<group>"; };
+		C4A9CEC66605B26949BED376435756CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C8FAB184B64E6468E887AE81AB554EAA /* PoporFrameOc-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PoporFrameOc-macOS.release.xcconfig"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		C9D337D49EA932EE9784F64E07B982EA /* Pods-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF2933B180F9F854B23C0EC09DEACD1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D20D2AFF166EEBA8B8BF0C5C8415D390 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D573C0C59E133A8D2D394A0BCB69C3AA /* PoporFrameOc-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PoporFrameOc-tvOS.debug.xcconfig"; path = "../PoporFrameOc-tvOS/PoporFrameOc-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D978CECEE100E61B6CB0385387FD7C82 /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS.framework; path = "Pods-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE533C6EC7D8BF230350670316043C4 /* View+pFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+pFrame.m"; path = "PoporFrameOc/Classes/View+pFrame.m"; sourceTree = "<group>"; };
-		DEB7E8D03BD015E7B431E940497DE7F4 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		E5D85235B1BE781890189D1BAE8D6AA1 /* Pods-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS.modulemap"; sourceTree = "<group>"; };
-		EC55D082C70E2B841DC517E347F0B61A /* Pods-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-umbrella.h"; sourceTree = "<group>"; };
+		DB19E3987FF0C9A370CDD1102785362D /* PoporFrameOc-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "PoporFrameOc-macOS-Info.plist"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-Info.plist"; sourceTree = "<group>"; };
+		DB66A3353EF095FC620D7029678F7D0D /* Pods-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB9FFC3EF8DADFD9C607793097789FDB /* PoporFrameOc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PoporFrameOc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6A0460DE77B15957547F6BD8A132F3F /* PoporFrameOc-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PoporFrameOc-macOS-umbrella.h"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS-umbrella.h"; sourceTree = "<group>"; };
+		E9D0E5BD1783E812274A877D04528341 /* PoporFrameOc-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PoporFrameOc-iOS-umbrella.h"; sourceTree = "<group>"; };
+		F2CE18D2073A7E23FDA1A81E5B82A438 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F302119B55F076C19472813094282D46 /* PoporFrameOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PoporFrameOc.framework; path = "PoporFrameOc-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5189CE165FB2D978AE08FE52DB7C898 /* Pods-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-macOS.modulemap"; sourceTree = "<group>"; };
-		F96CACAAEA4CD27CE1507109A0E3017E /* PoporFrameOc-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PoporFrameOc-macOS.debug.xcconfig"; path = "../PoporFrameOc-macOS/PoporFrameOc-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		FD5CF9DDF6A9B470F41B3626BCDE4002 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD8E49ACFACE66D037DD0C90F9BC523D /* PoporFrameOc-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PoporFrameOc-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF333C1CAC18459EA156831DA58A307 /* Pods-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-macOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +144,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17A9942B2B063D1618127C114CAAA7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D567B5442D8DE9C22E8CA2E0EC4F45E /* Foundation.framework in Frameworks */,
+				3B147AD6418DF274E85ADB0BF470DCC9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8374F461509A558F1C79A3BB66550700 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2355120D18D39C13F763C85346698DC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90D93159ECB2B033B22378F1B87D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B657BF8DE49B849D2F7E15304E5A549B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,122 +191,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E9E64B5FE20F83C43BAAE479AA43AD2 /* Pod */ = {
+		167CBCBB98A6AE593228D3376D6547FE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				58B18CD3E7AEB9381B3557E7258CF9AF /* LICENSE */,
-				63E0E63BE86A88CFAF993CDD6C8F0319 /* PoporFrameOc.podspec */,
-				71A4D6CF1B2586E72D51FCBB90E56C27 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1B0FCD808BD693626760DF9B95D1A364 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B195E4312FEE801F095ADE218145F931 /* Pods-iOS */,
-				1C4A3AE156B8919A0E215BF3BE501368 /* Pods-macOS */,
+				FAAA12CDACB8144E7206463B9627AB35 /* Pods-iOS */,
+				71391F1EF6A6C7A94F7278CD94599842 /* Pods-macOS */,
+				52CD2F4C9920077273108CD7A58A4518 /* Pods-tvOS */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1C4A3AE156B8919A0E215BF3BE501368 /* Pods-macOS */ = {
+		1E86698BB2803544E5E01C14AA4D88E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5189CE165FB2D978AE08FE52DB7C898 /* Pods-macOS.modulemap */,
-				0626251ECB559E1B2C1705E6AC7E0EC8 /* Pods-macOS-acknowledgements.markdown */,
-				D0BDA58391C445958E6878E830E97D8A /* Pods-macOS-acknowledgements.plist */,
-				A485B3D3ABD770760DEB16A19131D43B /* Pods-macOS-dummy.m */,
-				CF62B1D54441003748511AF143FC5273 /* Pods-macOS-frameworks.sh */,
-				60A0AD280F8195A33ADD4E1D925942B7 /* Pods-macOS-Info.plist */,
-				54AEB1BB69AB390B6CB2698AFB0B8326 /* Pods-macOS-umbrella.h */,
-				7C2048BF4D3187737130AAB30E0EBCD3 /* Pods-macOS.debug.xcconfig */,
-				26A42B6D8988F3BB94AC9792021F819D /* Pods-macOS.release.xcconfig */,
+				837F79B5D160DC8FA6E674D2AD30A733 /* iOS */,
+				37DAFE974051397F68E619886B9CF90F /* OS X */,
+				9A2A107B97B99B306FD59540F85BD957 /* tvOS */,
 			);
-			name = "Pods-macOS";
-			path = "Target Support Files/Pods-macOS";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		33166033E04685E3C542DAF152B5BF55 /* PoporFrameOc */ = {
+		37DAFE974051397F68E619886B9CF90F /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				D163B664641E5BDB7019FD49C3170773 /* PoporFrameOc.h */,
-				7437FA176B44201B8FE99C6217D595A4 /* View+pFrame.h */,
-				DAE533C6EC7D8BF230350670316043C4 /* View+pFrame.m */,
-				0E9E64B5FE20F83C43BAAE479AA43AD2 /* Pod */,
-				A91866BA8310CAFF7AA4A8A22BAC5277 /* Support Files */,
+				3C276B622281DFAC0908A3C5645975D1 /* AppKit.framework */,
+				044804B624754E8DC8E241BB410D84E5 /* Cocoa.framework */,
+				487ECEA1A989A4AF2916843C6F99360B /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		37F42067FD8AE9996D24F4D760A1ACC1 /* PoporFrameOc */ = {
+			isa = PBXGroup;
+			children = (
+				B22B31B0C7904561BDD9D075689D08D7 /* PoporFrameOc.h */,
+				14B578FA00B44EC17E7AD0B1809B6335 /* View+pFrame.h */,
+				5C9A37D8D3558F72B4697DCD7A14BD28 /* View+pFrame.m */,
+				5DD746DF6CB42D0002D99C275D0E66E2 /* Pod */,
+				AEF51CD9E7383FCBAD88DA56FB9FA890 /* Support Files */,
 			);
 			name = PoporFrameOc;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		63BB2B7A7F4C6FC062805711416F588C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				79B812DE291317779F6AD347A1C47C95 /* Foundation.framework */,
-				08420B74683924C6E957385033362341 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8A9A910669D35EA1A1028392A72DF062 /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				4D72E69AAAFE6E05DDB5F92913342F7F /* AppKit.framework */,
-				8879A173266616D609E286105D78B01C /* Cocoa.framework */,
-				FD5CF9DDF6A9B470F41B3626BCDE4002 /* Foundation.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		A91866BA8310CAFF7AA4A8A22BAC5277 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BBE10760E83A949836D0A0C71337CA30 /* PoporFrameOc-iOS.modulemap */,
-				438E238D0B05201658CC61E03084AAB1 /* PoporFrameOc-iOS-dummy.m */,
-				4C7041B6944CC48D8703F40691DBEA95 /* PoporFrameOc-iOS-Info.plist */,
-				36E94E442FD878A2474A0ECB791D7EC9 /* PoporFrameOc-iOS-prefix.pch */,
-				37D76C933244ED33A86209E6D6588161 /* PoporFrameOc-iOS-umbrella.h */,
-				5D570B268979A927FDDB5FD86CA7CD67 /* PoporFrameOc-iOS.debug.xcconfig */,
-				94BDA4DC5B9DF6012F0EB516375204FC /* PoporFrameOc-iOS.release.xcconfig */,
-				A0D8906C7AEC0771BF00F79C7504219E /* PoporFrameOc-macOS.modulemap */,
-				BF1A0C28EAC567241DF08F9F1A4764B1 /* PoporFrameOc-macOS-dummy.m */,
-				6F955239FE00A72326811544B5E917A7 /* PoporFrameOc-macOS-Info.plist */,
-				5DFDA770F1727C94EB76793D701FA64E /* PoporFrameOc-macOS-prefix.pch */,
-				53FBE273B9A143ABAFDAFCACAF6A1292 /* PoporFrameOc-macOS-umbrella.h */,
-				F96CACAAEA4CD27CE1507109A0E3017E /* PoporFrameOc-macOS.debug.xcconfig */,
-				3B0E34EB0C62AB34FBE052053DAC32AC /* PoporFrameOc-macOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PoporFrameOc-iOS";
-			sourceTree = "<group>";
-		};
-		A98EA0848307AD11D30B23FDB6042D8E /* Products */ = {
+		4590133D7ADC159415996A44CD656EB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				D978CECEE100E61B6CB0385387FD7C82 /* Pods_iOS.framework */,
 				175245A74469F10FE113A91569301816 /* Pods_macOS.framework */,
+				7978A60EBCD0591381D1A7A089C7AD88 /* Pods_tvOS.framework */,
 				72DCF6DC6DC610167C51DC98814BCDA5 /* PoporFrameOc.framework */,
 				F302119B55F076C19472813094282D46 /* PoporFrameOc.framework */,
+				A4D7DD941C3F4E3E6D7D661428425537 /* PoporFrameOc.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B195E4312FEE801F095ADE218145F931 /* Pods-iOS */ = {
+		52CD2F4C9920077273108CD7A58A4518 /* Pods-tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				E5D85235B1BE781890189D1BAE8D6AA1 /* Pods-iOS.modulemap */,
-				2ED0B0D56401A3DECE571B6F4CD2B523 /* Pods-iOS-acknowledgements.markdown */,
-				3B2E8CF3BE73A2CBC7426DD0DE8C4E6A /* Pods-iOS-acknowledgements.plist */,
-				A1835FBEF3279B5C1DE88619450FDCCC /* Pods-iOS-dummy.m */,
-				7EC173F7EEC1951A38DD43C48826A879 /* Pods-iOS-frameworks.sh */,
-				BBA225847CCDDA09A124AF92B95E2302 /* Pods-iOS-Info.plist */,
-				EC55D082C70E2B841DC517E347F0B61A /* Pods-iOS-umbrella.h */,
-				472F921B860A35143E30B2ED9E929291 /* Pods-iOS.debug.xcconfig */,
-				DEB7E8D03BD015E7B431E940497DE7F4 /* Pods-iOS.release.xcconfig */,
+				C177DFB3AF4FFDD0A36705B6877D076C /* Pods-tvOS.modulemap */,
+				DB66A3353EF095FC620D7029678F7D0D /* Pods-tvOS-acknowledgements.markdown */,
+				140C84F430325E68B6D149F4F10FE95F /* Pods-tvOS-acknowledgements.plist */,
+				0647C398AF52CE6E6235B0B1C1E24380 /* Pods-tvOS-dummy.m */,
+				79D680B2DBE716A5F98F5DF5766F5635 /* Pods-tvOS-frameworks.sh */,
+				92BEB2D5132A86995F1037E7F6AE9BA5 /* Pods-tvOS-Info.plist */,
+				0CA0437CF83CC26329BF6F7228A3D2BD /* Pods-tvOS-umbrella.h */,
+				3D2C831000A605CBB0574E53FA96FB7F /* Pods-tvOS.debug.xcconfig */,
+				B706FD5BEC6140249FA5F6F2812C5CA3 /* Pods-tvOS.release.xcconfig */,
 			);
-			name = "Pods-iOS";
-			path = "Target Support Files/Pods-iOS";
+			name = "Pods-tvOS";
+			path = "Target Support Files/Pods-tvOS";
+			sourceTree = "<group>";
+		};
+		5DD746DF6CB42D0002D99C275D0E66E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7F39152A436033F0C3AB2D07E677C2B2 /* LICENSE */,
+				DB9FFC3EF8DADFD9C607793097789FDB /* PoporFrameOc.podspec */,
+				CF2933B180F9F854B23C0EC09DEACD1D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		71391F1EF6A6C7A94F7278CD94599842 /* Pods-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3BACEF978A86AA71ACAB54586E643D69 /* Pods-macOS.modulemap */,
+				46A72F55A9FFDD971838CCB0973B46BF /* Pods-macOS-acknowledgements.markdown */,
+				C9D337D49EA932EE9784F64E07B982EA /* Pods-macOS-acknowledgements.plist */,
+				96CE3B8F20A9CFA71ABACEE82434792C /* Pods-macOS-dummy.m */,
+				4257A36121CA3C7F31B0EBDBA25BC2F8 /* Pods-macOS-frameworks.sh */,
+				42BD1ED6F719D5709BCED36D75950256 /* Pods-macOS-Info.plist */,
+				FFF333C1CAC18459EA156831DA58A307 /* Pods-macOS-umbrella.h */,
+				6584722EE01B0F2AA36B3E8091E89915 /* Pods-macOS.debug.xcconfig */,
+				72B5511860813EB0F813CD786193BCAC /* Pods-macOS.release.xcconfig */,
+			);
+			name = "Pods-macOS";
+			path = "Target Support Files/Pods-macOS";
+			sourceTree = "<group>";
+		};
+		837F79B5D160DC8FA6E674D2AD30A733 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5809B74DC04404B5146D106E139E28EF /* Foundation.framework */,
+				C4A9CEC66605B26949BED376435756CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A2A107B97B99B306FD59540F85BD957 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2CE18D2073A7E23FDA1A81E5B82A438 /* Foundation.framework */,
+				363E5A35279FB9EF10FD540BC9BFDD24 /* UIKit.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		AEF51CD9E7383FCBAD88DA56FB9FA890 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48FCC6F3F124C0A935207F9421C8BEE /* PoporFrameOc-iOS.modulemap */,
+				BD3E7A7D567AC85DB0F625DD0FABB46B /* PoporFrameOc-iOS-dummy.m */,
+				9741FE45CE64D561775DF8B2624FECCF /* PoporFrameOc-iOS-Info.plist */,
+				652F8191C984A33A9EEB7A5140C74EDD /* PoporFrameOc-iOS-prefix.pch */,
+				E9D0E5BD1783E812274A877D04528341 /* PoporFrameOc-iOS-umbrella.h */,
+				FD8E49ACFACE66D037DD0C90F9BC523D /* PoporFrameOc-iOS.debug.xcconfig */,
+				03A0F08561336FB758874D0B0628EFA7 /* PoporFrameOc-iOS.release.xcconfig */,
+				764CFB66346695C3633A640D702BB5B5 /* PoporFrameOc-macOS.modulemap */,
+				87B6DCCE08E640B22AF9B932C8CC4F19 /* PoporFrameOc-macOS-dummy.m */,
+				DB19E3987FF0C9A370CDD1102785362D /* PoporFrameOc-macOS-Info.plist */,
+				9F7A207BC0E6509DB9A01F0ADF07D0FB /* PoporFrameOc-macOS-prefix.pch */,
+				E6A0460DE77B15957547F6BD8A132F3F /* PoporFrameOc-macOS-umbrella.h */,
+				B9CC72B40722680306B8554671CEB3AA /* PoporFrameOc-macOS.debug.xcconfig */,
+				C8FAB184B64E6468E887AE81AB554EAA /* PoporFrameOc-macOS.release.xcconfig */,
+				855EAFF44A9B236DDC6C601B517FAF2D /* PoporFrameOc-tvOS.modulemap */,
+				B69EEFA3D2A7D10E9C3D76B938E61960 /* PoporFrameOc-tvOS-dummy.m */,
+				0BFF35EB85399686B0AF0ADB82DEE028 /* PoporFrameOc-tvOS-Info.plist */,
+				B8EFE909F297028C27D7C621D6FA6E5F /* PoporFrameOc-tvOS-prefix.pch */,
+				BBE81FC59BEF5BC05641B70770D71E0A /* PoporFrameOc-tvOS-umbrella.h */,
+				D573C0C59E133A8D2D394A0BCB69C3AA /* PoporFrameOc-tvOS.debug.xcconfig */,
+				98DC9BCDD5A1DE3792E358AD5EC3AB34 /* PoporFrameOc-tvOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PoporFrameOc-iOS";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -260,27 +343,35 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E0EC8D94E3FB950B2FE3EFB35FA999DF /* Development Pods */,
-				E220F85B1FE1D13DDD53E20DFF81C535 /* Frameworks */,
-				A98EA0848307AD11D30B23FDB6042D8E /* Products */,
-				1B0FCD808BD693626760DF9B95D1A364 /* Targets Support Files */,
+				1E86698BB2803544E5E01C14AA4D88E0 /* Frameworks */,
+				4590133D7ADC159415996A44CD656EB9 /* Products */,
+				167CBCBB98A6AE593228D3376D6547FE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		E0EC8D94E3FB950B2FE3EFB35FA999DF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33166033E04685E3C542DAF152B5BF55 /* PoporFrameOc */,
+				37F42067FD8AE9996D24F4D760A1ACC1 /* PoporFrameOc */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E220F85B1FE1D13DDD53E20DFF81C535 /* Frameworks */ = {
+		FAAA12CDACB8144E7206463B9627AB35 /* Pods-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				63BB2B7A7F4C6FC062805711416F588C /* iOS */,
-				8A9A910669D35EA1A1028392A72DF062 /* OS X */,
+				58B432F4818D959E285434230A511001 /* Pods-iOS.modulemap */,
+				A5B53C791C8EB050B77FB5B585D21795 /* Pods-iOS-acknowledgements.markdown */,
+				9480202E5564D5B92EDDD17A67587CA0 /* Pods-iOS-acknowledgements.plist */,
+				98F7400CFAC962D70F6F8280D5E1C9DE /* Pods-iOS-dummy.m */,
+				43280A60E9CEA8953DD6F3EAACA91B72 /* Pods-iOS-frameworks.sh */,
+				18D33478126CA93F00E6B42BAC55425D /* Pods-iOS-Info.plist */,
+				4B2D61F27E953CBF7B371D710B814B69 /* Pods-iOS-umbrella.h */,
+				D20D2AFF166EEBA8B8BF0C5C8415D390 /* Pods-iOS.debug.xcconfig */,
+				7757C094B8D24174BEFEF165A1A09F2E /* Pods-iOS.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-iOS";
+			path = "Target Support Files/Pods-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,11 +395,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6131F6585078B485F46AD292051AC9A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2036C67D17D16D5F7FE7B62DB67F451C /* PoporFrameOc-tvOS-umbrella.h in Headers */,
+				6D31DDD26CB2CD144EAFBCE5E78AEF36 /* PoporFrameOc.h in Headers */,
+				FEFE7260BCFC19CBF6534C8DFBF0E1DB /* View+pFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3E2BDEAFDC73336D2B8FAB94F0F41A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3881AA1D6172A00873E47C7B68E62AB2 /* Pods-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFC71CB5B4A967DDC8C5D6DDAC5164E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B5961C0E91ACC281A303774902B591 /* Pods-tvOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +434,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2E3E97046FAFB51DC141C9B885A34597 /* Pods-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF866504479513EFD9115B7BB274FBF /* Build configuration list for PBXNativeTarget "Pods-tvOS" */;
+			buildPhases = (
+				DEFC71CB5B4A967DDC8C5D6DDAC5164E /* Headers */,
+				37ADE5B77EC917EBAF61A6AD41E3519E /* Sources */,
+				BA90D93159ECB2B033B22378F1B87D7B /* Frameworks */,
+				27AF760B5E4872504F9C5E9304A84B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EBDF2584BA04D5803241869328703B /* PBXTargetDependency */,
+			);
+			name = "Pods-tvOS";
+			productName = "Pods-tvOS";
+			productReference = 7978A60EBCD0591381D1A7A089C7AD88 /* Pods_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7FA2779E8FE44CAE6CB8BC12817FCA7C /* PoporFrameOc-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8F83B636D83DA722CE569949F0795F2 /* Build configuration list for PBXNativeTarget "PoporFrameOc-iOS" */;
@@ -399,6 +527,24 @@
 			productReference = F302119B55F076C19472813094282D46 /* PoporFrameOc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E29FD7DB782D80AFEAC2CBE4DDB1579E /* PoporFrameOc-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7F62698DFE01459B953CDE579F2A4D /* Build configuration list for PBXNativeTarget "PoporFrameOc-tvOS" */;
+			buildPhases = (
+				6131F6585078B485F46AD292051AC9A5 /* Headers */,
+				60B6493BEFB184BF26C389BB382691AC /* Sources */,
+				17A9942B2B063D1618127C114CAAA7E8 /* Frameworks */,
+				EBADCB002BAB39E0A61B5F7961C113D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PoporFrameOc-tvOS";
+			productName = "PoporFrameOc-tvOS";
+			productReference = A4D7DD941C3F4E3E6D7D661428425537 /* PoporFrameOc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -417,19 +563,28 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A98EA0848307AD11D30B23FDB6042D8E /* Products */;
+			productRefGroup = 4590133D7ADC159415996A44CD656EB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B46FA33BF30B86468D41063E70BFAA98 /* Pods-iOS */,
 				8E15A87B47471764B5A1EED8EC0AA819 /* Pods-macOS */,
+				2E3E97046FAFB51DC141C9B885A34597 /* Pods-tvOS */,
 				7FA2779E8FE44CAE6CB8BC12817FCA7C /* PoporFrameOc-iOS */,
 				B8AD71818BB53AE962F345D850CE07B1 /* PoporFrameOc-macOS */,
+				E29FD7DB782D80AFEAC2CBE4DDB1579E /* PoporFrameOc-tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		27AF760B5E4872504F9C5E9304A84B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D546E288F7CAD26B2D71E2FFD6F8B5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -458,9 +613,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBADCB002BAB39E0A61B5F7961C113D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		37ADE5B77EC917EBAF61A6AD41E3519E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657E0F291D09A80E62C75C872D8F3CC2 /* Pods-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		594E9E24A814A569D59C4EF0172CA820 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,6 +644,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B925E8E48B67A729ED6382520E19EB /* Pods-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B6493BEFB184BF26C389BB382691AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D323CF44E9C0290DCB90900B5A0C3646 /* PoporFrameOc-tvOS-dummy.m in Sources */,
+				52E683664C0BCA9BDADAE315C865562F /* View+pFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +677,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		18EBDF2584BA04D5803241869328703B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PoporFrameOc-tvOS";
+			target = E29FD7DB782D80AFEAC2CBE4DDB1579E /* PoporFrameOc-tvOS */;
+			targetProxy = 4D059ECEBE7D5F5E600789A1B013D269 /* PBXContainerItemProxy */;
+		};
 		5FA46466D13919F2974959F423D59F7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PoporFrameOc-iOS";
@@ -515,7 +700,7 @@
 /* Begin XCBuildConfiguration section */
 		0E93A5B70DD954C6A5CFEAC58BE07CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D570B268979A927FDDB5FD86CA7CD67 /* PoporFrameOc-iOS.debug.xcconfig */;
+			baseConfigurationReference = FD8E49ACFACE66D037DD0C90F9BC523D /* PoporFrameOc-iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,7 +728,106 @@
 			};
 			name = Debug;
 		};
-		142AF1146F4E5345EDD92C742DF1EC97 /* Release */ = {
+		149498657316F2CD1DF10FC0B7AF05ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6584722EE01B0F2AA36B3E8091E89915 /* Pods-macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-macOS/Pods-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/Pods-macOS/Pods-macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25283FDCF1B703C6C76AD37FFB1157BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FAB184B64E6468E887AE81AB554EAA /* PoporFrameOc-macOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFrameOc-macOS/PoporFrameOc-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFrameOc-macOS/PoporFrameOc-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/PoporFrameOc-macOS/PoporFrameOc-macOS.modulemap";
+				PRODUCT_MODULE_NAME = PoporFrameOc;
+				PRODUCT_NAME = PoporFrameOc;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38A3F4D814E6A1CDDA4B24AD52F4BF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B5511860813EB0F813CD786193BCAC /* Pods-macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-macOS/Pods-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/Pods-macOS/Pods-macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D177203CBA67ED8A45A4624E353548D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -603,46 +887,137 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 			};
 			name = Release;
 		};
-		149498657316F2CD1DF10FC0B7AF05ED /* Debug */ = {
+		65BE10D03521C593BF651A2AFC0CB3E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C2048BF4D3187737130AAB30E0EBCD3 /* Pods-macOS.debug.xcconfig */;
+			baseConfigurationReference = 98DC9BCDD5A1DE3792E358AD5EC3AB34 /* PoporFrameOc-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-macOS/Pods-macOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFrameOc-tvOS/PoporFrameOc-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFrameOc-tvOS/PoporFrameOc-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/Pods-macOS/Pods-macOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFrameOc-tvOS/PoporFrameOc-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = PoporFrameOc;
+				PRODUCT_NAME = PoporFrameOc;
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B0CA3F8E4F92090A7CE2E88878DC45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D573C0C59E133A8D2D394A0BCB69C3AA /* PoporFrameOc-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFrameOc-tvOS/PoporFrameOc-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFrameOc-tvOS/PoporFrameOc-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFrameOc-tvOS/PoporFrameOc-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = PoporFrameOc;
+				PRODUCT_NAME = PoporFrameOc;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		25283FDCF1B703C6C76AD37FFB1157BB /* Release */ = {
+		80ACD1ACA2E5F84BEF3D366A08F0BF32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B0E34EB0C62AB34FBE052053DAC32AC /* PoporFrameOc-macOS.release.xcconfig */;
+			baseConfigurationReference = D20D2AFF166EEBA8B8BF0C5C8415D390 /* Pods-iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Pods-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB26B97532BD2F72AD44DF5BEF44F656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7757C094B8D24174BEFEF165A1A09F2E /* Pods-iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Pods-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C42CA5341F5E63D3A899C92135C7C9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CC72B40722680306B8554671CEB3AA /* PoporFrameOc-macOS.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -669,43 +1044,40 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		38A3F4D814E6A1CDDA4B24AD52F4BF4B /* Release */ = {
+		C694E3BC42CFCF77087BAAD7D08702B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26A42B6D8988F3BB94AC9792021F819D /* Pods-macOS.release.xcconfig */;
+			baseConfigurationReference = 03A0F08561336FB758874D0B0628EFA7 /* PoporFrameOc-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-macOS/Pods-macOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PoporFrameOc-iOS/PoporFrameOc-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PoporFrameOc-iOS/PoporFrameOc-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/Pods-macOS/Pods-macOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PoporFrameOc-iOS/PoporFrameOc-iOS.modulemap";
+				PRODUCT_MODULE_NAME = PoporFrameOc;
+				PRODUCT_NAME = PoporFrameOc;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6377C349ABD6D52A0B94E47D2D0060E5 /* Debug */ = {
+		CAFED01E7254576280181EB052AB5150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -769,12 +1141,13 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 			};
 			name = Debug;
 		};
-		80ACD1ACA2E5F84BEF3D366A08F0BF32 /* Debug */ = {
+		DA4E585002360EB9CB2E4A28544C7FF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 472F921B860A35143E30B2ED9E929291 /* Pods-iOS.debug.xcconfig */;
+			baseConfigurationReference = 3D2C831000A605CBB0574E53FA96FB7F /* Pods-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -785,28 +1158,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Pods-iOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-tvOS/Pods-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-tvOS/Pods-tvOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AB26B97532BD2F72AD44DF5BEF44F656 /* Release */ = {
+		F0BC1735BEE5E6A9DDCF0351C63BC17D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB7E8D03BD015E7B431E940497DE7F4 /* Pods-iOS.release.xcconfig */;
+			baseConfigurationReference = B706FD5BEC6140249FA5F6F2812C5CA3 /* Pods-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -817,82 +1190,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Pods-iOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-tvOS/Pods-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-tvOS/Pods-tvOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C42CA5341F5E63D3A899C92135C7C9D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F96CACAAEA4CD27CE1507109A0E3017E /* PoporFrameOc-macOS.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PoporFrameOc-macOS/PoporFrameOc-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PoporFrameOc-macOS/PoporFrameOc-macOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/PoporFrameOc-macOS/PoporFrameOc-macOS.modulemap";
-				PRODUCT_MODULE_NAME = PoporFrameOc;
-				PRODUCT_NAME = PoporFrameOc;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C694E3BC42CFCF77087BAAD7D08702B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94BDA4DC5B9DF6012F0EB516375204FC /* PoporFrameOc-iOS.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PoporFrameOc-iOS/PoporFrameOc-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PoporFrameOc-iOS/PoporFrameOc-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PoporFrameOc-iOS/PoporFrameOc-iOS.modulemap";
-				PRODUCT_MODULE_NAME = PoporFrameOc;
-				PRODUCT_NAME = PoporFrameOc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -902,6 +1213,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D7F62698DFE01459B953CDE579F2A4D /* Build configuration list for PBXNativeTarget "PoporFrameOc-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0CA3F8E4F92090A7CE2E88878DC45D /* Debug */,
+				65BE10D03521C593BF651A2AFC0CB3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44E53AC3FB2E1793E0CC880B8745DE2B /* Build configuration list for PBXNativeTarget "Pods-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -914,8 +1234,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6377C349ABD6D52A0B94E47D2D0060E5 /* Debug */,
-				142AF1146F4E5345EDD92C742DF1EC97 /* Release */,
+				CAFED01E7254576280181EB052AB5150 /* Debug */,
+				5D177203CBA67ED8A45A4624E353548D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -934,6 +1254,15 @@
 			buildConfigurations = (
 				C42CA5341F5E63D3A899C92135C7C9D1 /* Debug */,
 				25283FDCF1B703C6C76AD37FFB1157BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF866504479513EFD9115B7BB274FBF /* Build configuration list for PBXNativeTarget "Pods-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4E585002360EB9CB2E4A28544C7FF2 /* Debug */,
+				F0BC1735BEE5E6A9DDCF0351C63BC17D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

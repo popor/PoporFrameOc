@@ -16,3 +16,10 @@ target 'macOS' do
   
 end
 
+
+target 'tvOS' do
+  # platform :osx, '10.6'
+  
+  pod 'PoporFrameOc', :path => '../'
+  
+end
