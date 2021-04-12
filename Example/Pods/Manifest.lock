@@ -1,0 +1,16 @@
+PODS:
+  - PoporFrameOc (1.0)
+
+DEPENDENCIES:
+  - PoporFrameOc (from `../`)
+
+EXTERNAL SOURCES:
+  PoporFrameOc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PoporFrameOc: c1be648dbb38c2c5c2346309573140b5f44f4ea7
+
+PODFILE CHECKSUM: a490764579e543b5c0f6f56a4737985d86604309
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module PoporFrameOc {
+  umbrella header "PoporFrameOc-umbrella.h"
+
+  export *
+  module * { export * }
+}
