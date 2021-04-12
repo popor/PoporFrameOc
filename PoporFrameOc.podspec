@@ -9,24 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = 'PoporFrameOc'
   s.version          = '1.0'
-  s.summary          = 'UIView frame 的简写语法, 拷贝的.'
+  s.summary          = '
+  View frame 的简写语法, 拷贝的;
+  兼容 UIView 和 NSView;
+  '
 
-  s.homepage         = 'https://gitee.com/popor/PoporFrameOc'
+  s.homepage               = 'https://gitee.com/popor/PoporFrameOc'
+  s.license                = { :type => 'MIT', :file => 'LICENSE' }
+  s.author                 = { 'popor' => '908891024@qq.com' }
+  s.source                 = { :git => 'https://gitee.com/popor/PoporFrameOc.git', :tag => s.version.to_s }
   
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'popor' => '908891024@qq.com' }
-  s.source           = { :git => 'https://gitee.com/popor/PoporFrameOc.git', :tag => s.version.to_s }
-  
-  s.ios.deployment_target = '1.0'
+  s.ios.frameworks         = 'Foundation', 'UIKit'
+  s.tvos.frameworks        = 'Foundation', 'UIKit'
+  s.osx.frameworks         = 'Foundation', 'AppKit'
 
-  s.source_files = 'PoporFrameOc/Classes/**/*'
+  s.ios.deployment_target  = '1.0'
+  s.osx.deployment_target  = '10.6'
+  s.tvos.deployment_target = '1.0'
   
-  # s.resource_bundles = {
-  #   'PoporFrameOc' => ['PoporFrameOc/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files           = 'PoporFrameOc/Classes/**/*'
   
 end

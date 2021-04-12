@@ -1,13 +1,18 @@
 use_frameworks!
 
-platform :ios, '9.0'
 
-target 'PoporFrameOc_Example' do
+
+target 'iOS' do
+  # platform :ios, '9.0'
+
   pod 'PoporFrameOc', :path => '../'
-
-  target 'PoporFrameOc_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end
+
+target 'macOS' do
+  platform :osx, '10.6'
+  
+  pod 'PoporFrameOc', :path => '../'
+  
+end
+
